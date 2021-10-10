@@ -1,0 +1,30 @@
+{
+  "name": "email-lead-generator",
+  "version": "1.0.0",
+  "description": "this is a sample project which uses nodemailer and mail trap to send mails to admin users when ever a new user signup for the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilsdeportfolio/Lead-Generator-.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "mailtrap"
+  ],
+  "author": "akhil kamsala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhilsdeportfolio/Lead-Generator-/issues"
+  },
+  "homepage": "https://github.com/akhilsdeportfolio/Lead-Generator-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "mongoose": "^6.0.10",
+    "nodemailer": "^6.6.5"
+  }
+}
